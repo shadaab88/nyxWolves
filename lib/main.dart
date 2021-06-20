@@ -16,8 +16,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner:false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        canvasColor: Colors.blue,
-        primarySwatch: Colors.blue,
+        canvasColor: Colors.blue[700],
+        //primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
@@ -452,15 +452,11 @@ class _MyHomePageState extends State<MyHomePage> {
                           );
                         },
                         child: Container(
-                          //color: Colors.transparent,
                           height: MediaQuery.of(context).size.height,
                           width: deviceWidth*0.9,
                           child: tabBar(),
                         ),
                       )
-
-
-
                     ],
                       ),
                   ),

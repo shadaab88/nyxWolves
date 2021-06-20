@@ -187,7 +187,7 @@ class _secondPageState extends State<secondPage> {
               indicatorColor: Colors.white,
             ),
           ),
-          backgroundColor: Colors.blue[700],
+          backgroundColor: Colors.blue[600],
         ),
       )
     );
