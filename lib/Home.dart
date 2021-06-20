@@ -15,7 +15,7 @@ class _HomeState extends State<Home> {
       child: Container(
         height: deviceHeight,
         width: deviceWidth,
-        color: Colors.blue,
+        color: Colors.blue[700],
         child: Column(
           children: [
             SizedBox(

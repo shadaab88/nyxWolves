@@ -26,6 +26,7 @@ class _secondPageState extends State<secondPage> {
     var deviceHeight =  MediaQuery.of(context).size.height;
     var deviceWidth = MediaQuery.of(context).size.width;
     return Scaffold(
+      backgroundColor: Colors.blue[700],
       appBar: SecondAppBar(),
       body: DefaultTabController(
         length: 5,
@@ -49,7 +50,7 @@ class _secondPageState extends State<secondPage> {
                       new Container(
                         height: deviceHeight,
                         width: deviceWidth,
-                        color: Colors.blue,
+                        color: Colors.blue[700],
                         child: Center(child: Text("Second page")),
                       ),
                       new Container(
@@ -186,7 +187,7 @@ class _secondPageState extends State<secondPage> {
               indicatorColor: Colors.white,
             ),
           ),
-          backgroundColor: Colors.lightBlue,
+          backgroundColor: Colors.blue[700],
         ),
       )
     );

@@ -51,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                   Container(
                     //height: deviceHeight*2,
-                    color: Colors.blue,
+                    color: Colors.blue[700],
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
@@ -191,7 +191,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                           "SPORTS",
                                           style: new TextStyle(
                                               fontWeight: FontWeight.bold,
-                                              color: Colors.blue,
+                                              color: Colors.blue[700],
                                               fontSize: 12.0
                                           ),
                                         ),

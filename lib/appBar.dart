@@ -210,7 +210,7 @@ class SecondAppBar extends StatelessWidget implements PreferredSizeWidget {
           // border: Border(
           //   bottom: BorderSide(width: 16.0, color: Colors.lightBlue.shade900),
           // ),
-          color: Colors.blue,
+          color: Colors.blue[700],
           // boxShadow: [
           //   BoxShadow(blurRadius: 5.0,
           //     offset: Offset(0, 2.0),),

@@ -15,9 +15,9 @@ class _tabBarState extends State<tabBar> {
       debugShowCheckedModeBanner:false,
       title: 'flutter Tab',
       theme: ThemeData(
-        canvasColor: Colors.blue,
-        primaryColor: Colors.blue,
-        accentColor: Colors.blue,
+        canvasColor: Colors.blue[700],
+        primaryColor: Colors.blue[700],
+        accentColor: Colors.blue[700],
       ),
       home: DefaultTabController(
         length: 3,
@@ -27,13 +27,13 @@ class _tabBarState extends State<tabBar> {
             children: [
                 Tab1(),
               Container(
-                color: Colors.blue,
+                color: Colors.blue[700],
                   child: Icon(
                       Icons.movie
                   )
               ),
               Container(
-                color: Colors.blue,
+                color: Colors.blue[700],
                 child: Icon(
                     Icons.games
                 ),
@@ -98,7 +98,7 @@ class Tab1 extends StatelessWidget implements PreferredSizeWidget {
     var deviceHeight =  MediaQuery.of(context).size.height;
     var deviceWidth = MediaQuery.of(context).size.width;
     return Container(
-      color: Colors.blue,
+      color: Colors.blue[700],
       child: Column(
         children: <Widget>[
           SizedBox(
