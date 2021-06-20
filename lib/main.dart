@@ -453,7 +453,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         },
                         child: Container(
                           height: MediaQuery.of(context).size.height,
-                          width: deviceWidth*0.9,
+                          width: deviceWidth *0.9,
                           child: tabBar(),
                         ),
                       )
